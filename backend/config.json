@@ -1,0 +1,7 @@
+{
+  "keys": {
+    "jwtAccesKey": "87ghajsddendc0fd",
+    "jwtRefreshKey": "kegh7escden4c003abc",
+    "apiAccesKey": "31ddb4b5dbdddf89d15898532cafc0fd"
+  }
+}

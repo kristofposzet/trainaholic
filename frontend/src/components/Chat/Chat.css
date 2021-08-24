@@ -1,0 +1,40 @@
+.bubble {
+  color: #fff;
+  font-size: 120%;
+  background: #1b263b;
+  padding: 16px;
+  border-radius: 10px;
+  display: flex;
+  max-width: 250px;
+  margin-bottom: 8px;
+}
+
+.me {
+  margin-right: auto;
+  background: #415a77;
+}
+
+.you {
+  margin-left: auto;
+}
+
+.divElement {
+  height: 550px;
+  overflow: auto;
+  max-width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+.NameHolder {
+  max-width: 800px;
+  background-color: #eee;
+  box-shadow: 0 4px 3px grey;
+  margin: auto;
+  padding: 10px 0;
+  border-radius: 5px;
+  font-size: 120%;
+  color: #1b263b;
+}

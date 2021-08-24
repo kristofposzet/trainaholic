@@ -1,0 +1,11 @@
+.CountrySelector {
+  width: 320px !important;
+}
+
+
+/* Azokon a kijelzokon, amelyek 400px vagy az alattiak, kisebbre allitom a szelesseget */
+@media screen and (max-width: 400px) {
+  .CountrySelector {
+    width: 200px !important;
+  }
+}

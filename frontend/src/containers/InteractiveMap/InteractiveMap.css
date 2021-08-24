@@ -1,0 +1,12 @@
+.Map {
+  height: 83vh;
+}
+
+.InteractiveMap {
+  width: 100%;
+  height: 100%;
+  background-color: #f7f7f7;
+  box-shadow: 5px 6px 5px #505050;
+  padding: 10px 0px;
+  margin: auto;
+}

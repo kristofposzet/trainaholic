@@ -1,0 +1,24 @@
+.Inner {
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+
+.Outer {
+  top:0;
+  left:0;
+  width:100%;
+  background-color: #e0e1dd;
+  box-shadow: 0 4px 3px grey;
+  padding: 10px 0;
+}
+
+.ProfilePic {
+  transition: transform .6s; /* animáció */
+  margin: 0 auto;
+}
+
+.ProfilePic:hover {
+  transform: scale(1.03); /* zoom */
+  opacity: 0.9;
+}

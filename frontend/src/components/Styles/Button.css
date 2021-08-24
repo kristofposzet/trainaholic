@@ -1,0 +1,35 @@
+/* color palettes: 0d1b2a, 1b263b, 415a77, 778da9, e0e1dd */
+
+.Button {
+  background-color: #1b263b !important;
+  outline: none !important;
+  cursor: pointer !important;
+  color: #f7f7f7 !important;
+  border-radius: 8px !important;
+  border: none;
+  text-align: center;
+}
+
+.Button:hover, .Button:active {
+  background-color: #415a77 !important;
+}
+
+.Button:disabled {
+  background-color: #e0e1dd !important;
+  cursor: not-allowed !important;
+  border: 1px solid #484848 !important;
+  color: #888888 !important;
+}
+
+.SecondaryButton {
+  background-color: #415a77 !important;
+  cursor: pointer !important;
+  color: #f7f7f7 !important;
+  border-radius: 8px !important;
+  border: none !important;
+  text-align: center;
+}
+
+.SecondaryButton:hover, .SecondaryButton:active {
+  background-color: #778da9 !important;
+}

@@ -1,0 +1,69 @@
+{
+  "name": "paim1863-frontend",
+  "proxy": "http://localhost:5000",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.6.3",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "formik": "^2.2.6",
+    "leaflet": "^1.7.1",
+    "prop-types": "^15.7.2",
+    "query-string": "^7.0.0",
+    "react": "^17.0.1",
+    "react-animated-slider": "^2.0.0",
+    "react-bootstrap": "^1.4.3",
+    "react-bootstrap-range-slider": "^2.0.2",
+    "react-bootstrap-spinner": "^1.0.0",
+    "react-country-region-selector": "^3.0.2",
+    "react-datepicker": "^3.8.0",
+    "react-dom": "^17.0.1",
+    "react-flags-select": "^2.1.1",
+    "react-horizontal-scrolling-menu": "^0.7.10",
+    "react-icons": "^4.2.0",
+    "react-intl": "^5.12.3",
+    "react-leaflet": "^3.1.0",
+    "react-redux": "^7.2.2",
+    "react-region-flag-select": "^0.1.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.2",
+    "react-select": "^4.1.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "socket.io-client": "^4.1.2",
+    "web-vitals": "^1.1.0",
+    "yup": "^0.32.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "npx eslint .",
+    "lint:fix": "npx eslint . --fix"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}

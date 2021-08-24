@@ -1,0 +1,17 @@
+.menu-item {
+  padding: 0 40px;
+  margin: 5px 30px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.scroll-menu-arrow {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.selected-img {
+  opacity: 0.5 !important;
+	-webkit-transition: .3s ease-in-out !important;
+	transition: .3s ease-in-out !important;
+}
