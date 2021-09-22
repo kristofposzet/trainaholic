@@ -1,27 +1,23 @@
-version: "3"
+version: '3'
 services:
   api:
     container_name: api
-    image: kristofposzet1/trainaholic     
+    image: kristofposzet1/trainaholic
     ports:
       - '80:5000'
-    links:
-      - "arangodb"
     depends_on:
-      - "arangodb"
+      arangodb:
+        condition: service_healthy
     restart: on-failure
-    networks:
-      - aern-app
 
   arangodb:
     container_name: arangodb
-    image: arangodb:3.7
+    image: arangodb:latest
     ports:
       - 8529:8529
     environment:
       - ARANGO_ROOT_PASSWORD=passwd
-    networks:
-      - aern-app
-networks:
-  aern-app:
-    driver: bridge
+    healthcheck:
+      test: ['CMD', 'nc', '-vz', 'localhost', '8529']
+      timeout: 5s
+      retries: 10
